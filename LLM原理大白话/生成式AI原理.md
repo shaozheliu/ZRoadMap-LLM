@@ -31,6 +31,9 @@
 
 
 
+## 四、大模型为什么会调用工具
+- 本质：nextt token prediction的任务，定义一个特殊符号，当出现该符号时，模型会调用工具。
+
 
 参考文献：
 - [李宏毅 2024 春季生成式AI技术课程](https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php)
